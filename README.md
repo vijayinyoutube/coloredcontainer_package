@@ -43,16 +43,16 @@ Wrap any widget with ```ColoredContainer``` widget. By default it sets  ```Color
 
 
 ```dart
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: ColoredContainer(
-          child: Text("Text"),
-        ),
+@override
+Widget build(BuildContext context) {
+  return const Scaffold(
+    body: Center(
+      child: ColoredContainer(
+        child: Text("Text"),
       ),
-    );
-  }
+    ),
+  );
+}
 ```
 
 
